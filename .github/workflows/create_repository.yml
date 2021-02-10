@@ -57,10 +57,10 @@ jobs:
           
       - name: Commit and push to dev
         run: |
-          git config --global user.name 'Miguel Morillo'
-          git config --global user.email 'miguelmwilliams@gmail.com'
+          git config --global user.name 'Beebit'
+          git config --global user.email 'bot@beebit.es'
           git add -A
-          git commit -am "Automatic creation of Laravel"
+          git commit -am "Automatic creation of Laravel Project"
           git push
           
       - name: Creating test branch
